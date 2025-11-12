@@ -36,3 +36,6 @@ ros2 launch ros2_kdl_package kdl_node_1b.launch.py cmd_interface:=velocity ctrl:
 ```bash
 ros2 launch ros2_kdl_package kdl_node_1b.launch.py cmd_interface:=velocity ctrl:=velocity_ctrl_null
 ```
+
+
+NOTA: molte cose potrebbero non funzionare per problemi con il computer, consultare la cartella del mio collega
