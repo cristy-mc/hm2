@@ -69,7 +69,7 @@ Eigen::VectorXd KDLController::velocity_ctrl_vision(
     // (void)q_curr; // q_curr serve per l'update se non fatto fuori, ma qui usiamo robot_->getEEFrame()
     
     // 1. Adattamento Frame Aruco -> Camera
-    // Matrice che inverte gli assi X e Y (come nel codice del tuo amico)
+    // Matrice che inverte gli assi X e Y 
     Eigen::Matrix3d R_image_to_camera;
     R_image_to_camera << -1,  0,  0,
                           0, -1,  0,
