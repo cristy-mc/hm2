@@ -37,5 +37,11 @@ ros2 launch ros2_kdl_package kdl_node_1b.launch.py cmd_interface:=velocity ctrl:
 ros2 launch ros2_kdl_package kdl_node_1b.launch.py cmd_interface:=velocity ctrl:=velocity_ctrl_null
 ```
 
+NOTE:
+- ros2_iiwa: original folder, to run the 1a-1b points
+- ros2_kdl_package: contains the implementation of the 1a-1b points of the homework
+- ros2_kdl_package1c: contains the implementation of the 1c point of the homework
+- ros2_iiwa2: contains the implementation of the 2a point of the homework of the homework
+- iiwa_description: contains the implementation of the 2b point (the robot that spawns in the world with the aruco tag)
 
-NOTA: molte cose potrebbero non funzionare per problemi con il computer, consultare la cartella del mio collega
+(Molte cose potrebbero non funzionare per problemi con il computer, consultare la cartella del mio collega)
